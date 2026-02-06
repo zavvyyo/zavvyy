@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cennik — ile kosztuje strona internetowa? | WebStudio</title>
+  <meta name="description" content="Cennik stron: landing page, strona firmowa, opieka. Jasne widełki i co zawiera pakiet." />
+  <link rel="canonical" href="https://example.com/cennik.html" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><span class="logo"></span><span>WebStudio</span></a>
+    <nav class="menu">
+      <a data-nav href="index.html">Start</a>
+      <a data-nav href="oferta.html">Oferta</a>
+      <a data-nav href="realizacje.html">Realizacje</a>
+      <a data-nav href="cennik.html">Cennik</a>
+      <a data-nav href="blog.html">Blog</a>
+      <a data-nav href="kontakt.html" class="btn small primary">Wycena</a>
+    </nav>
+    <a class="btn primary" href="kontakt.html">Darmowa wycena</a>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h1 class="h1" style="font-size:clamp(28px,3.4vw,44px)">Cennik</h1>
+    <p class="lead">Widełki zależą od treści i liczby podstron. Tu masz uczciwy punkt startu.</p>
+    <p class="breadcrumbs">Start / Cennik</p>
+
+    <div class="card pad" style="margin-top:18px">
+      <table class="table" aria-label="Cennik">
+        <thead>
+          <tr>
+            <th>Pakiet</th>
+            <th>Najlepsze dla</th>
+            <th>Od</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Landing page</strong><div class="muted small">1 strona + formularz</div></td>
+            <td class="muted">reklamy, szybki start</td>
+            <td><strong>500 zł</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Strona firmowa</strong><div class="muted small">3–6 podstron + blog</div></td>
+            <td class="muted">SEO, wiarygodność</td>
+            <td><strong>1250 zł</strong></td>
+          </tr>
+          <tr>
+            <td><strong>Opieka</strong><div class="muted small">zmiany + aktualizacje</div></td>
+            <td class="muted">stałe wsparcie</td>
+            <td><strong>50 zł / mies.</strong></td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="margin-top:14px">
+        <a class="btn primary" href="kontakt.html">Poproś o wycenę</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer"><div class="container">© <span id="y"></span> WebStudio</div></footer>
+<script src="assets/main.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

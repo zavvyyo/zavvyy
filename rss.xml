@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>WebStudio — Blog</title>
+    <link>https://example.com/blog.html</link>
+    <description>Wpisy o stronach internetowych i SEO.</description>
+    <language>pl</language>
+
+    <item>
+      <title>Ile kosztuje strona internetowa (wizytówka) w 2026?</title>
+      <link>https://example.com/posts/strona-wizytowka-ile-kosztuje.html</link>
+      <guid>https://example.com/posts/strona-wizytowka-ile-kosztuje.html</guid>
+      <pubDate>Tue, 04 Feb 2026 10:00:00 +0100</pubDate>
+      <description>Widełki cenowe i czynniki wpływające na koszt.</description>
+    </item>
+
+    <item>
+      <title>SEO: jak przygotować treści na stronę, żeby pozycjonowały?</title>
+      <link>https://example.com/posts/seo-jak-przygotowac-tresci-na-strone.html</link>
+      <guid>https://example.com/posts/seo-jak-przygotowac-tresci-na-strone.html</guid>
+      <pubDate>Tue, 04 Feb 2026 10:00:00 +0100</pubDate>
+      <description>Checklista treści i struktury pod SEO.</description>
+    </item>
+  </channel>
+</rss>

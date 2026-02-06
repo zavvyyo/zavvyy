@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kontakt i wycena — strony internetowe | WebStudio</title>
+  <meta name="description" content="Kontakt: darmowa wycena strony internetowej. Napisz, co sprzedajesz i jaki masz cel." />
+  <link rel="canonical" href="https://example.com/kontakt.html" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><span class="logo"></span><span>WebStudio</span></a>
+    <nav class="menu">
+      <a data-nav href="index.html">Start</a>
+      <a data-nav href="oferta.html">Oferta</a>
+      <a data-nav href="realizacje.html">Realizacje</a>
+      <a data-nav href="cennik.html">Cennik</a>
+      <a data-nav href="blog.html">Blog</a>
+      <a data-nav href="kontakt.html" class="btn small primary">Wycena</a>
+    </nav>
+    <a class="btn primary" href="kontakt.html">Darmowa wycena</a>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container split">
+    <div>
+      <h1 class="h1" style="font-size:clamp(28px,3.4vw,44px)">Kontakt / wycena</h1>
+      <p class="lead">Wypełnij krótko — odpiszę z wyceną i propozycją struktury.</p>
+      <p class="breadcrumbs">Start / Kontakt</p>
+
+      <div class="card pad" style="margin-top:18px">
+        <form class="form" action="https://formspree.io/f/xpqjavqz" method="post">
+            <input type="hidden" name="_subject" value="Nowa wycena strony">
+          <div>
+            <label class="muted small" for="name">Imię / firma</label>
+            <input id="name" name="name" placeholder="Np. Jan / Firma XYZ" required />
+          </div>
+          <div>
+            <label class="muted small" for="email">E-mail</label>
+            <input id="email" type="email" name="email" placeholder="jan@firma.pl" required />
+          </div>
+          <div>
+            <label class="muted small" for="type">Czego potrzebujesz?</label>
+            <select id="type" name="type">
+              <option>Landing page</option>
+              <option>Strona firmowa</option>
+              <option>Optymalizacja istniejącej strony</option>
+            </select>
+          </div>
+          <div>
+            <label class="muted small" for="msg">Opis</label>
+            <textarea id="msg" name="msg" placeholder="Co sprzedajesz? Jaki cel strony? Jakie miasto/rynek?"></textarea>
+          </div>
+          <button class="btn primary" type="submit">Wyślij</button>
+        </form>
+      </div>
+    </div>
+
+    <aside class="card pad">
+      <h2 style="margin:0 0 8px">Dane kontaktowe</h2>
+      <p class="muted" style="margin:0 0 14px">Podmień na swoje:</p>
+      <div class="notice">
+        <div><strong>E-mail:</strong> zavvyy21@gmail.com</div>
+        <div><strong>Tel:</strong> +48 786 899 140</div>
+      </div>
+      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap">
+        <button class="btn" data-copy="zavvyy21@gmail.com">Kopiuj e-mail</button>
+        <button class="btn" data-copy="+48 786 899 140">Kopiuj telefon</button>
+      </div>
+
+    </aside>
+  </div>
+</main>
+
+<footer class="footer"><div class="container">© <span id="y"></span> WebStudio</div></footer>
+<script src="assets/main.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

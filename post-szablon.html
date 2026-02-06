@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tytuł wpisu | WebStudio</title>
+  <meta name="description" content="Opis wpisu (150–160 znaków)." />
+  <link rel="canonical" href="https://example.com/twoj-wpis.html" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BlogPosting",
+    "headline":"Tytuł wpisu",
+    "datePublished":"2026-02-04",
+    "dateModified":"2026-02-04",
+    "author":{"@type":"Person","name":"WebStudio"},
+    "publisher":{"@type":"Organization","name":"WebStudio"},
+    "mainEntityOfPage":"https://example.com/posts/twoj-wpis.html"
+  }
+  </script>
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><span class="logo"></span><span>WebStudio</span></a>
+    <a class="btn primary" href="kontakt.html">Darmowa wycena</a>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <p class="breadcrumbs"><a class="muted" href="blog.html">Blog</a> / Wpis</p>
+    <article class="card pad">
+      <h1 class="h1" style="font-size:clamp(26px,3.2vw,40px)">Tytuł wpisu</h1>
+      <p class="muted small">Data: 2026-02-04 • Autor: WebStudio</p>
+
+      <h2>Wprowadzenie</h2>
+      <p class="muted">Krótki wstęp i obietnica: co czytelnik zyska.</p>
+
+      <h2>H2 — główna sekcja</h2>
+      <p class="muted">Treść…</p>
+
+      <h3>H3 — podsekcja</h3>
+      <p class="muted">Treść…</p>
+
+      <h2>FAQ</h2>
+      <div class="notice">
+        <p><strong>Pytanie 1?</strong><br><span class="muted">Odpowiedź krótka i konkretna.</span></p>
+        <p><strong>Pytanie 2?</strong><br><span class="muted">Odpowiedź.</span></p>
+      </div>
+
+      <div style="margin-top:14px">
+        <a class="btn primary" href="kontakt.html">Chcesz taką stronę? Napisz</a>
+      </div>
+    </article>
+  </div>
+</main>
+
+<footer class="footer"><div class="container">© <span id="y"></span> WebStudio</div></footer>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

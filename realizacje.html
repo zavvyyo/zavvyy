@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Realizacje — przykładowe wdrożenia | WebStudio</title>
+  <meta name="description" content="Zobacz przykładowe realizacje stron: układ, sekcje, sposób prezentacji oferty i CTA." />
+  <link rel="canonical" href="https://example.com/realizacje.html" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html"><span class="logo"></span><span>WebStudio</span></a>
+    <nav class="menu">
+      <a data-nav href="index.html">Start</a>
+      <a data-nav href="oferta.html">Oferta</a>
+      <a data-nav href="realizacje.html">Realizacje</a>
+      <a data-nav href="cennik.html">Cennik</a>
+      <a data-nav href="blog.html">Blog</a>
+      <a data-nav href="kontakt.html" class="btn small primary">Wycena</a>
+    </nav>
+    <a class="btn primary" href="kontakt.html">Darmowa wycena</a>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <h1 class="h1" style="font-size:clamp(28px,3.4vw,44px)">Realizacje</h1>
+    <p class="lead">Wstaw tu swoje projekty. Nawet 3–5 przykładów wystarczy, żeby zwiększyć konwersję.</p>
+    <p class="breadcrumbs">Start / Realizacje</p>
+
+    <div class="grid3" style="margin-top:18px">
+      <div class="feature">
+        <h2 style="margin:0 0 8px; font-size:1.1rem">Projekt #1 — Strona firmowa</h2>
+        <p class="muted" style="margin:0 0 10px">Branża: usługi • Cel: leady</p>
+        <a class="btn small" href="#" aria-label="Link do projektu">Podgląd / link</a>
+      </div>
+      <div class="feature">
+        <h2 style="margin:0 0 8px; font-size:1.1rem">Projekt #2 — Landing page</h2>
+        <p class="muted" style="margin:0 0 10px">Branża: B2C • Cel: sprzedaż</p>
+        <a class="btn small" href="#">Podgląd / link</a>
+      </div>
+      <div class="feature">
+        <h2 style="margin:0 0 8px; font-size:1.1rem">Projekt #3 — Optymalizacja</h2>
+        <p class="muted" style="margin:0 0 10px">Szybkość + SEO • Cel: ruch</p>
+        <a class="btn small" href="#">Podgląd / link</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer"><div class="container">© <span id="y"></span> WebStudio</div></footer>
+<script src="assets/main.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
